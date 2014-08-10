@@ -3,9 +3,8 @@
 #export PATH=/usr/local/bin:$PATH
 #PS1="marcote-book:\W \u$ "
 
-
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/bin:/usr/local/bin:$PATH";
 
 
 # Load the shell dotfiles, and then some:
